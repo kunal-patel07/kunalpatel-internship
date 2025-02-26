@@ -8,7 +8,7 @@ function firstLetter(str){
 console.log(firstLetter(str))
 console.log(firstLetter(str1))
 
-//change the first char of strig
+//change the first char of string
 let doller="$120";
 function changeDoller(doller){
     return +doller.slice(1);
@@ -16,7 +16,7 @@ function changeDoller(doller){
 
 //function that allows limited char to display
 
-let word="hi,good moring this is for prac";
+let word="hi,good morning this is for prac";
 
 function maxChar(word,maxLength){
     return (word.length>maxLength)?
